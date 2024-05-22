@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8" />
+        <title>Registration</title>
+        <link rel="stylesheet" href="{{ url_for('static', filename='index.css') }}">
+    </head>
+
+    <body class="fonreg">
+        <div class="reg">
+            <h3>Регистрация</h3>
+
+        <form method="post">
+            <div class="ctho">
+                <label for="username">Логин:</label>
+                <input type="text" id="username" name="username" required>
+
+            <div class="ctho">
+                <label for="email">Почта:</label>
+                <input type="email" id="email" name="email" required>
+
+            <div class="ctho">
+                <label for="password">Пароль:</label>
+                <input type="password" id="password" name="password" required>
+
+            <div class="ctho">
+                <button type="submit">Зарегистрироваться</button>
+        </form>
+
+        <div class="ctho">
+            <p>Уже зарегистрированны?</p>
+            <a href="{{ url_for('authNew')}}">Перейти к авторизации</a>
+        </div>
+    </body>
+
+</html>

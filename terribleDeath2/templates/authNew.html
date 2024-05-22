@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8" />
+        <title>Authorization</title>
+        <link rel="stylesheet" href="{{ url_for('static', filename='index.css') }}">
+    </head>
+
+    <body class="fon">
+        <div class="auth">
+            <h3>Авторизация</h3>
+
+        <form method="post">
+            <div class="ctho">
+                <label for="username">Логин:</label>
+                <input type="text" id="username" name="username" required>
+            </div>
+
+            <div class="ctho">
+                <label for="password">Пароль:</label>
+                <input type="password" id="password" name="password" required>
+            </div>
+
+            <div class="ctho">
+                <button type="submit">Войти</button>
+            </div>
+        </form>
+
+            <div class="ctho">
+                <p>Не зарегистрированны?</p>
+                <a href="{{ url_for('registration')}}">Перейти к регистрации</a>
+            </div>
+    </body>
+
+</html>

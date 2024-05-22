@@ -1,0 +1,211 @@
+h1 {
+  color: ghostwhite;
+}
+
+body {
+  margin: 10;
+}
+
+.fon {
+  background-image: url(motAuth.jpg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-repeat: repeat-y;
+}
+
+.fonreg
+{
+    background-image: url(RegFon.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-repeat: repeat-y;
+}
+
+.reg
+{
+    background-color: #baae84;
+    padding: 15px 120px;
+    border-width: 3px;
+    border-style: dotted;
+    border-color: #4f4934;
+    max-width: 600px;
+    max-height: 450px;
+    margin: auto;
+    margin-top: 10%;
+    margin-bottom: 10%;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.proffon {
+  background-image: url(profil.jpg);
+  background-repeat: no-repeat;
+  background-position: cover;
+  background-attachment: fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-repeat: repeat-y;
+}
+
+.prof {
+  background-color: #628d94;
+  padding: 15px 120px;
+  border-width: 3px;
+  border-style: dotted;
+  border-color: #375357;
+  max-width: 800px;
+  max-height: 400px;
+  margin-top: 20px;
+  margin-right: 25px;
+  border-radius: 10px;
+  display: flex;
+  text-align: center;
+  float: right;
+  position: static;
+}
+
+.auth {
+  background-color: #baae84;
+  padding: 15px 120px;
+  border-width: 3px;
+  border-style: dotted;
+  border-color: #4f4934;
+  max-width: 600px;
+  max-height: 500px;
+  margin-top: 20px;
+  margin-left: 25px;
+  border-radius: 10px;
+  text-align: center;
+  position: fixed;
+}
+
+.ctho {
+  padding: 10px;
+}
+
+.header {
+  padding: 80px;
+  text-align: center;
+  background-image: url(Motivachia.jpg);
+  background-position: center center;
+  background-attachment: fixed;
+  background-size: cover;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  color: ghostwhite;
+}
+
+.ad {
+  padding: 80px;
+  text-align: center;
+  background-image: url(adm.jpg);
+  background-position: center center;
+  background-attachment: fixed;
+  background-size: cover;
+  color: ghostwhite;
+}
+
+.new {
+  background-color: #dcdcdc;
+}
+
+.navbar {
+  overflow: hidden;
+  background-color: lightslategrey;
+}
+
+.navbar a {
+  float: left;
+  display: block;
+  color: aliceblue;
+  text-align: end;
+  padding: 14px 20px;
+  text-decoration: none;
+}
+
+.navbar a.right {
+  float: right;
+}
+
+.navbar a.end:hover {
+  background-color: aliceblue;
+  color: Red;
+}
+
+.navbar a:hover {
+  background-color: aliceblue;
+  color: ActiveBorder;
+}
+
+.fakeimg {
+  background-color: lightslategrey;
+  width: 100%;
+  padding: 20px;
+}
+
+.row {
+  display: flex;
+}
+
+.side {
+  background-color: #f1f1f1;
+  padding: 20px;
+}
+
+.us {
+  padding: 80px;
+  text-align: center;
+  background-image: url(Cat.jpg);
+  background-position: center center;
+  background-attachment: fixed;
+  background-size: 700 500;
+  color: black;
+}
+
+.main {
+  flex: 70%;
+  background-color: white;
+  padding: 20px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.footer {
+  padding: 20px;
+  text-align: center;
+  background: #ddd;
+}
+
+.footer1 {
+  padding: 10px;
+  text-align: center;
+  background: #ddd;
+}
+
+@media screen and (max-width: 700px) {
+  .row {
+    float: none;
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .navbar a {
+    float: none;
+    width: 100%;
+  }
+}

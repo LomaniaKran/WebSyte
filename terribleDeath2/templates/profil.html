@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8" />
+        <title>Authorization</title>
+        <link rel="stylesheet" href="{{ url_for('static', filename='index.css') }}">
+    </head>
+
+    <body class="proffon">
+        <div class="prof">
+            <h3>Профиль</h3>
+
+        <form method="post">
+            <div class="ctho">
+                <h4>Логин:</h5>
+                <input type="text" id="username" name="username" value="{{ user.username }}" required>
+
+            <div class="ctho">
+                <h4>Почта:</h5>
+                <input type="text" id="email" name="email" value="{{ user.email }}" required>
+
+            <div class="ctho"><br/>
+                <button type="submit">Изменить данные</button>
+        </form>
+        <a href="{{ url_for('logout') }}">Выйти из аккаунта</a>
+        
+        <div class="ctho"><br/>
+            <a href="{{ url_for('index')}}">На главную</a>
+    </body>
+</html>
