@@ -13,5 +13,6 @@
 > 4. Прописываем команду "docker build -t mycoolflaskimage ."
 > 5. Прописываем команду "docker run -p 5000:5000 mycoolflaskimage"
 > 6. Копируем адрес, вбиваем его в любом браузере, добавляя "/authNew"
-
+### А как проще?
+> Передите по ссылке https://websitemot.onrender.com/authNew !
 
